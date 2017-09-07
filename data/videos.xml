@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCvjgXvBlbQiydffZU7m1_aw"/>
+  <id>yt:channel:UCvjgXvBlbQiydffZU7m1_aw</id>
+  <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+  <title>The Coding Train</title>
+  <link rel="alternate" href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"/>
+  <author>
+    <name>The Coding Train</name>
+    <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+  </author>
+  <published>2006-07-03T18:24:29+00:00</published>
+  <entry>
+    <id>yt:video:TwMfCM9YZHk</id>
+    <yt:videoId>TwMfCM9YZHk</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>Code Dictation Experiments and Bike Accident Update</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=TwMfCM9YZHk"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-07-21T00:52:40+00:00</published>
+    <updated>2017-09-02T15:40:42+00:00</updated>
+    <media:group>
+      <media:title>Code Dictation Experiments and Bike Accident Update</media:title>
+      <media:content url="https://www.youtube.com/v/TwMfCM9YZHk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i1.ytimg.com/vi/TwMfCM9YZHk/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In this live stream, I experiment with dictation software to code (with little success) during my physical therapy following a bike accident. Video where I talk about my bike accident: https://youtu.be/S1xGFWwDuLE Support this
+        channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To donate to the Processing Foundation: https://processingfoundation.org/ Contact: Twitter: https://twitter.com/shiffman The Coding
+        Train website: http://thecodingtrain.com/ Links discussed in this video: Dragon Speech Recognition Software: https://www.nuance.com/dragon.html Using Python to Code by Voice: https://youtu.be/8SkdfdXWYaI Flood Fill Time Song:
+        https://soundcloud.com/ike-bishop/flood-fill-time-feat-daniel-shiffman VoiceCode: http://voicecode.io/ Ada's blog posts on ES6: Part 1: https://8-uh.github.io/post/but-i-dont-wanna-part-1/ Part 2: https://8-uh.github.io/post/but-i-dont-wanna-part-2/
+        funfunfunction's video on const and let: https://youtu.be/sjyJBL5fkp8 My Playlist on HTML, CSS: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX Eloquent Javascript: http://eloquentjavascript.net/ Source Code for the all Video
+        Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org For an Introduction to Programming: https://www.youtube.com/watch?v=8j0UDiN7my4&amp;index=1&amp;list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
+        For my Nature of Code videos: https://www.youtube.com/watch?v=6vX8wT1G798&amp;list=PLRqwX-V7Uu6YVljJvFRCyRM6mmF5wMPeE&amp;index=1 For More Live Streams: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bxnFR6no70vlxxuxDEzflz For More Coding
+        Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH Help us caption &amp; translate this video! http://amara.org/v/8m5d/</media:description>
+      <media:community>
+        <media:starRating count="774" average="4.97" min="1" max="5"/>
+        <media:statistics views="22070"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:S1xGFWwDuLE</id>
+    <yt:videoId>S1xGFWwDuLE</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>Hello again! (Update on bike accident)</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=S1xGFWwDuLE"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-07-07T20:58:01+00:00</published>
+    <updated>2017-09-02T13:32:26+00:00</updated>
+    <media:group>
+      <media:title>Hello again! (Update on bike accident)</media:title>
+      <media:content url="https://www.youtube.com/v/S1xGFWwDuLE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i4.ytimg.com/vi/S1xGFWwDuLE/hqdefault.jpg" width="480" height="360"/>
+      <media:description>Help us caption &amp; translate this video! http://amara.org/v/8Y5Z/</media:description>
+      <media:community>
+        <media:starRating count="1319" average="4.92" min="1" max="5"/>
+        <media:statistics views="34255"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:n6q9D2wd1bE</id>
+    <yt:videoId>n6q9D2wd1bE</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>10.7: Neural Networks: Matrix Math Part 2 - The Nature of Code</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=n6q9D2wd1bE"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-07-03T12:17:50+00:00</published>
+    <updated>2017-09-01T18:36:36+00:00</updated>
+    <media:group>
+      <media:title>10.7: Neural Networks: Matrix Math Part 2 - The Nature of Code</media:title>
+      <media:content url="https://www.youtube.com/v/n6q9D2wd1bE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i3.ytimg.com/vi/n6q9D2wd1bE/hqdefault.jpg" width="480" height="360"/>
+      <media:description>This video is a continuation of my first Matrix Math video where I implement in JavaScript the math operations that I need in order to create my own simple neural network library. Matrix Math Part 1: https://youtu.be/uSzGdfdOoG8
+        This video is part of Chapter 10 of The Nature of Code (http://natureofcode.com/book/chapter-10-neural-networks/) This video is also part of session 4 of my Spring 2017 ITP &quot;Intelligence and Learning&quot; course
+        (https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks) Support this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To donate to the
+        Processing Foundation: https://processingfoundation.org/ Send me your questions and coding challenges!: https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/
+        Links discussed in this video: The Nature of Code: http://natureofcode.com/ Session 4 of Intelligence and Learning: https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks My Simple Artificial Neural Network
+        JavaScript Library: https://github.com/shiffman/Neural-Network-p5 Khan Academy's Linear Algebra class: https://www.khanacademy.org/math/linear-algebra 3Blue1Brown's Essence of Linear Algebra:
+        https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab Brendan Fortuner's Linear algebra cheat sheet for deep learning: https://medium.com/towards-data-science/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c Hadamard
+        product (matrices) on Wikipedia: https://en.wikipedia.org/wiki/Hadamard_product_(matrices) Books discussed in this video: Tariq Rashid's Make Your Own Neural Network: http://amzn.to/2tcVeFS Marvin Minsky's Perceptrons: http://amzn.to/2u8Jv8f Source
+        Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org The Nature of Code playlist:
+        https://www.youtube.com/user/shiffman/playlists?view_as=subscriber&amp;shelf_id=6&amp;view=50&amp;sort=dd For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For More Intelligence and Learning:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX</media:description>
+      <media:community>
+        <media:starRating count="372" average="4.97" min="1" max="5"/>
+        <media:statistics views="17109"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:uSzGdfdOoG8</id>
+    <yt:videoId>uSzGdfdOoG8</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>10.6: Neural Networks: Matrix Math Part 1 - The Nature of Code</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=uSzGdfdOoG8"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-07-02T10:46:36+00:00</published>
+    <updated>2017-09-02T16:56:55+00:00</updated>
+    <media:group>
+      <media:title>10.6: Neural Networks: Matrix Math Part 1 - The Nature of Code</media:title>
+      <media:content url="https://www.youtube.com/v/uSzGdfdOoG8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i2.ytimg.com/vi/uSzGdfdOoG8/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In this video, I introduce the idea of &quot;Linear Algebra&quot; and explore the matrix math required for a simple neural network library. Next video: https://youtu.be/n6q9D2wd1bE This video is part of Chapter 10 of The Nature of
+        Code (http://natureofcode.com/book/chapter-10-neural-networks/) This video is also part of session 4 of my Spring 2017 ITP &quot;Intelligence and Learning&quot; course
+        (https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks) Support this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To donate to the
+        Processing Foundation: https://processingfoundation.org/ Send me your questions and coding challenges!: https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/
+        Links discussed in this video: The Nature of Code: http://natureofcode.com/ Session 4 of Intelligence and Learning: https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks My Simple Artificial Neural Network
+        JavaScript Library: https://github.com/shiffman/Neural-Network-p5 Khan Academy's Linear Algebra class: https://www.khanacademy.org/math/linear-algebra 3Blue1Brown's Essence of Linear Algebra:
+        https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab Brendan Fortuner's Linear algebra cheat sheet for deep learning: https://medium.com/towards-data-science/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c Math.js:
+        http://mathjs.org/ GPU.js: http://gpu.rocks/ Books discussed in this video: Tariq Rashid's Make Your Own Neural Network: http://amzn.to/2tcVeFS Marvin Minsky's Perceptrons: http://amzn.to/2u8Jv8f Source Code for the all Video Lessons:
+        https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org The Nature of Code playlist: https://www.youtube.com/user/shiffman/playlists?view_as=subscriber&amp;shelf_id=6&amp;view=50&amp;sort=dd For More
+        Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For More Intelligence and Learning: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX Help us caption &amp; translate this video!
+        http://amara.org/v/8Q8P/</media:description>
+      <media:community>
+        <media:starRating count="465" average="4.96" min="1" max="5"/>
+        <media:statistics views="23308"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:IlmNhFxre0w</id>
+    <yt:videoId>IlmNhFxre0w</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>10.5: Neural Networks: Multilayer Perceptron Part 2 - The Nature of Code</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=IlmNhFxre0w"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-30T13:06:51+00:00</published>
+    <updated>2017-09-01T10:28:12+00:00</updated>
+    <media:group>
+      <media:title>10.5: Neural Networks: Multilayer Perceptron Part 2 - The Nature of Code</media:title>
+      <media:content url="https://www.youtube.com/v/IlmNhFxre0w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i2.ytimg.com/vi/IlmNhFxre0w/hqdefault.jpg" width="480" height="360"/>
+      <media:description>This video follows up on the previous Multilayer Perceptron video (https://youtu.be/u5GAVdLQyIg). Here I begin the long process of coding a simple neural network library in JavaScript. Next video: https://youtu.be/uSzGdfdOoG8 This
+        video is part of Chapter 10 of The Nature of Code (http://natureofcode.com/book/chapter-10-neural-networks/) This video is also part of session 4 of my Spring 2017 ITP &quot;Intelligence and Learning&quot; course
+        (https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks) Support this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To donate to the
+        Processing Foundation: https://processingfoundation.org/ Send me your questions and coding challenges!: https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/
+        Links discussed in this video: The Nature of Code: http://natureofcode.com/ Session 4 of Intelligence and Learning: https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks Perceptron on Wikipedia:
+        https://en.wikipedia.org/wiki/Perceptron My Simple Artificial Neural Network JavaScript Library: https://github.com/shiffman/Neural-Network-p5 My video on Perceptrons: https://youtu.be/ntKn5TPHHAk Books discussed in this video: Tariq Rashid's Make
+        Your Own Neural Network: http://amzn.to/2tcVeFS Marvin Minsky's Perceptrons: http://amzn.to/2u8Jv8f Source Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org The
+        Nature of Code playlist: https://www.youtube.com/user/shiffman/playlists?view_as=subscriber&amp;shelf_id=6&amp;view=50&amp;sort=dd For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For More
+        Intelligence and Learning: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX Help us caption &amp; translate this video! http://amara.org/v/8OIg/</media:description>
+      <media:community>
+        <media:starRating count="334" average="4.96" min="1" max="5"/>
+        <media:statistics views="14979"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:u5GAVdLQyIg</id>
+    <yt:videoId>u5GAVdLQyIg</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>10.4: Neural Networks: Multilayer Perceptron Part 1 - The Nature of Code</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=u5GAVdLQyIg"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-27T13:12:06+00:00</published>
+    <updated>2017-09-01T10:18:30+00:00</updated>
+    <media:group>
+      <media:title>10.4: Neural Networks: Multilayer Perceptron Part 1 - The Nature of Code</media:title>
+      <media:content url="https://www.youtube.com/v/u5GAVdLQyIg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i2.ytimg.com/vi/u5GAVdLQyIg/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In this video, I move beyond the Simple Perceptron and discuss what happens when you build multiple layers of interconnected perceptrons (&quot;fully-connected network&quot;) for machine learning. Next video:
+        https://youtu.be/IlmNhFxre0w This video is part of Chapter 10 of The Nature of Code (http://natureofcode.com/book/chapter-10-neural-networks/) This video is also part of session 4 of my Spring 2017 ITP &quot;Intelligence and Learning&quot; course
+        (https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks) Support this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To donate to the
+        Processing Foundation: https://processingfoundation.org/ Send me your questions and coding challenges!: https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/
+        Links discussed in this video: The Nature of Code: http://natureofcode.com/ Session 4 of Intelligence and Learning: https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks Perceptron on Wikipedia:
+        https://en.wikipedia.org/wiki/Perceptron My Simple Artificial Neural Network JavaScript Library: https://github.com/shiffman/Neural-Network-p5 My video on AND and OR: https://youtu.be/r2S7j54I68c My video on Perceptrons: https://youtu.be/ntKn5TPHHAk
+        kwichmann's Learning XOR with a neural net: https://kwichmann.github.io/ml_sandbox/XOR_nn/ Books discussed in this video: Tariq Rashid's Make Your Own Neural Network: http://amzn.to/2tcVeFS Marvin Minsky's Perceptrons: http://amzn.to/2u8Jv8f Source
+        Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org The Nature of Code playlist:
+        https://www.youtube.com/user/shiffman/playlists?view_as=subscriber&amp;shelf_id=6&amp;view=50&amp;sort=dd For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For More Intelligence and Learning:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX Help us caption &amp; translate this video! http://amara.org/v/8JC0/</media:description>
+      <media:community>
+        <media:starRating count="448" average="4.93" min="1" max="5"/>
+        <media:statistics views="20042"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:XJ7HLz9VYz0</id>
+    <yt:videoId>XJ7HLz9VYz0</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>10.1: Introduction to Neural Networks - The Nature of Code</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=XJ7HLz9VYz0"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-26T14:46:54+00:00</published>
+    <updated>2017-09-02T10:56:38+00:00</updated>
+    <media:group>
+      <media:title>10.1: Introduction to Neural Networks - The Nature of Code</media:title>
+      <media:content url="https://www.youtube.com/v/XJ7HLz9VYz0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i1.ytimg.com/vi/XJ7HLz9VYz0/hqdefault.jpg" width="480" height="360"/>
+      <media:description>Welcome to Chapter 10 of The Nature of Code: Neural Networks. (http://natureofcode.com/book/chapter-10-neural-networks/) In this video, I provide a brief introduction neural networks and an overview of topics in upcoming videos.
+        Next video (Perceptron): https://youtu.be/ntKn5TPHHAk This video is also part of session 4 of my Spring 2017 ITP &quot;Intelligence and Learning&quot; course
+        (https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks) Support this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To donate to the
+        Processing Foundation: https://processingfoundation.org/ Send me your questions and coding challenges!: https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/
+        Links discussed in this video: The Nature of Code: http://natureofcode.com/ Session 4 of Intelligence and Learning: https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks Perceptron on Wikipedia:
+        https://en.wikipedia.org/wiki/Perceptron My Simple Artificial Neural Network JavaScript Library: https://github.com/shiffman/Neural-Network-p5 Books discussed in this video: Tariq Rashid's Make Your Own Neural Network: http://amzn.to/2tcVeFS Marvin
+        Minsky's Perceptrons: http://amzn.to/2u8Jv8f Source Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org The Nature of Code playlist:
+        https://www.youtube.com/user/shiffman/playlists?view_as=subscriber&amp;shelf_id=6&amp;view=50&amp;sort=dd For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For More Intelligence and Learning:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX Help us caption &amp; translate this video! http://amara.org/v/8Ho5/</media:description>
+      <media:community>
+        <media:starRating count="1286" average="4.92" min="1" max="5"/>
+        <media:statistics views="42482"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:cmffV5rMSEU</id>
+    <yt:videoId>cmffV5rMSEU</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>Live Stream #98: Starting Series on Neural Networks</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=cmffV5rMSEU"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-24T12:26:36+00:00</published>
+    <updated>2017-08-29T02:31:46+00:00</updated>
+    <media:group>
+      <media:title>Live Stream #98: Starting Series on Neural Networks</media:title>
+      <media:content url="https://www.youtube.com/v/cmffV5rMSEU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i4.ytimg.com/vi/cmffV5rMSEU/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In this live stream, I begin the long process of building a neural network library. I cover the concept of a &quot;multi-layer perceptron&quot; as well as linear algebra / matrix math. Edited videos coming soon! 30:13 - Intro to
+        Neural Networks 41:38 - Multilayered Perceptron Part 1 1:08:18 - Multilayered Perceptron Part 2 1:48:20 - Linear Algebra for Neural Networks Part 1 2:18:28 - Linear Algebra for Neural Networks Part 2 2:37:00 - Conclusion/Q&amp;A Support this channel
+        on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To Support the Processing Foundation: https://processingfoundation.org/support Send me your questions and coding challenges!:
+        https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/ Links discussed in this video: O'Reilly AI Conference:
+        https://conferences.oreilly.com/artificial-intelligence/ai-ny My Simple Artificial Neural Network JavaScript Library: https://github.com/shiffman/Neural-Network-p5 Programming from A to Z: http://shiffman.net/a2z/ The Nature of Code:
+        http://natureofcode.com/ Hadamard product (matrices) on Wikipedia: https://en.wikipedia.org/wiki/Hadamard_product_(matrices) Brendan Fortuner's Linear algebra cheat sheet for deep learning:
+        https://medium.com/towards-data-science/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c this.dot song: https://soundcloud.com/kristianpedersen/this-dot-feat-daniel-shiffman Perceptron video: https://youtu.be/ntKn5TPHHAk NYU Tisch School of
+        the Arts: http://tisch.nyu.edu/ ITP - Interactive Telecommunications Program - NYU: https://tisch.nyu.edu/itp kwichmann's Learning XOR with a neural net: https://kwichmann.github.io/ml_sandbox/XOR_nn/ Khan Academy's Linear Algebra class:
+        https://www.khanacademy.org/math/linear-algebra 3Blue1Brown's Essence of Linear Algebra: https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab Books discussed in this video: Tariq Rashid's Make Your Own Neural Network:
+        http://amzn.to/2tcVeFS Marvin Minsky's Perceptrons: http://amzn.to/2u8Jv8f My Videos mentioned in this video: Programming from A to Z playlist: https://www.youtube.com/watch?v=HRANU6KtNEs&amp;list=PLRqwX-V7Uu6aoeLx_mWfz6XwtFaD9SkVX AND and OR:
+        https://www.youtube.com/watch?v=r2S7j54I68c Playlist on Vectors: https://www.youtube.com/watch?v=mWJkvxQXIa8&amp;list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc Dot Product: https://www.youtube.com/watch?v=_ENEsV_kNx8 Nature of Code Playlist:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aFlwukCmDf0-1-uSR7mklK Source Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org For an Introduction to
+        Programming: https://www.youtube.com/watch?v=8j0UDiN7my4&amp;index=1&amp;list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA For my Nature of Code videos: https://www.youtube.com/watch?v=6vX8wT1G798&amp;list=PLRqwX-V7Uu6YVljJvFRCyRM6mmF5wMPeE&amp;index=1 For
+        More Live Streams: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bxnFR6no70vlxxuxDEzflz For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH</media:description>
+      <media:community>
+        <media:starRating count="697" average="4.88" min="1" max="5"/>
+        <media:statistics views="21290"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:c6WdJltqEtM</id>
+    <yt:videoId>c6WdJltqEtM</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>Coding Challenge #72.4: Frogger Refactoring</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=c6WdJltqEtM"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-20T14:32:42+00:00</published>
+    <updated>2017-08-31T14:58:05+00:00</updated>
+    <media:group>
+      <media:title>Coding Challenge #72.4: Frogger Refactoring</media:title>
+      <media:content url="https://www.youtube.com/v/c6WdJltqEtM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i4.ytimg.com/vi/c6WdJltqEtM/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In this follow-up to the Frogger coding challenge, I attempt to refactor the code to make it more modular, readable, and scalable. Part 1: https://youtu.be/giXV6xErw0Y Part 2: https://youtu.be/06-ZvYmSeus Part 3:
+        https://youtu.be/hk326ZHlENQ Part 4: https://youtu.be/c6WdJltqEtM Source code for this challenge: https://github.com/CodingTrain/Rainbow-Code/tree/master/CodingChallenges/CC_73_Frogger Here is the community made Frogger in p5.js (thanks to
+        meiamsome): https://github.com/CodingTrain/Frogger Support this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To Support the Processing Foundation:
+        https://processingfoundation.org/support Send me your questions and coding challenges!: https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/ Links discussed
+        in this video: Frogger on Wikipedia: https://en.wikipedia.org/wiki/Frogger My Video explaining &quot;Overloading&quot;: https://youtu.be/V7k5bFQbhG0 Source Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js:
+        https://p5js.org/ Processing: https://processing.org For More Classic Video Games: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aRpfixWba8ZF6tJnZy5Mfw For More Coding Challenges:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For an Intro to Programming using p5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA Help us caption &amp; translate this video!
+        http://amara.org/v/7yJA/</media:description>
+      <media:community>
+        <media:starRating count="346" average="4.90" min="1" max="5"/>
+        <media:statistics views="15520"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:DGxIcDjPzac</id>
+    <yt:videoId>DGxIcDjPzac</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>10.3: Neural Networks: Perceptron Part 2 - The Nature of Code</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=DGxIcDjPzac"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-19T14:08:45+00:00</published>
+    <updated>2017-09-02T16:49:43+00:00</updated>
+    <media:group>
+      <media:title>10.3: Neural Networks: Perceptron Part 2 - The Nature of Code</media:title>
+      <media:content url="https://www.youtube.com/v/DGxIcDjPzac?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i1.ytimg.com/vi/DGxIcDjPzac/hqdefault.jpg" width="480" height="360"/>
+      <media:description>This is a follow-up to my Perceptron Video (https://youtu.be/ntKn5TPHHAk) This video is part of Chapter 10 of The Nature of Code (http://natureofcode.com/book/chapter-10-neural-networks/) This video is also part of session 4 of my
+        Spring 2017 ITP &quot;Intelligence and Learning&quot; course (https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks) Source Code from my first Perceptron Coding Challenge:
+        https://github.com/CodingTrain/Rainbow-Code/tree/master/CodingChallenges/CC_72_SimplePerceptron Simple Perceptron code examples: p5.js: https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp10_nn/NOC_10_01_Perceptron
+        Processing: https://github.com/shiffman/The-Nature-of-Code-Examples/tree/master/chp10_nn/NOC_10_01_SimplePerceptron Support this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To
+        donate to the Processing Foundation: https://processingfoundation.org/ Send me your questions and coding challenges!: https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website:
+        http://thecodingtrain.com/ Links discussed in this video: My video on the map() function: https://youtu.be/nicMAoW6u1g My video explaining object overloading: http://youtu.be/V7k5bFQbhG0 My Perceptron Coding Challenge: https://youtu.be/ntKn5TPHHAk
+        Session 4 of Intelligence and Learning: https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks Perceptron on Wikipedia: https://en.wikipedia.org/wiki/Perceptron Source Code for the all Video Lessons:
+        https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For More Intelligence and Learning:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX Help us caption &amp; translate this video! http://amara.org/v/7wh0/</media:description>
+      <media:community>
+        <media:starRating count="431" average="4.97" min="1" max="5"/>
+        <media:statistics views="22691"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:hk326ZHlENQ</id>
+    <yt:videoId>hk326ZHlENQ</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>Coding Challenge #72.3: Frogger - Part 3</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=hk326ZHlENQ"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-16T15:26:14+00:00</published>
+    <updated>2017-08-30T23:58:40+00:00</updated>
+    <media:group>
+      <media:title>Coding Challenge #72.3: Frogger - Part 3</media:title>
+      <media:content url="https://www.youtube.com/v/hk326ZHlENQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i1.ytimg.com/vi/hk326ZHlENQ/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In the third part of the Frogger coding challenge, I implement the rows of logs/turtles that the frog jumps onto. Part 1: https://youtu.be/giXV6xErw0Y Part 2: https://youtu.be/06-ZvYmSeus Part 4: https://youtu.be/c6WdJltqEtM Source
+        code for this challenge: https://github.com/CodingTrain/Rainbow-Code/tree/master/CodingChallenges/CC_73_Frogger Here is the community made Frogger in p5.js (thanks to meiamsome): https://github.com/CodingTrain/Frogger Support this channel on Patreon:
+        https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To Support the Processing Foundation: https://processingfoundation.org/support Send me your questions and coding challenges!:
+        https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/ Links discussed in this video: Frogger on Wikipedia: https://en.wikipedia.org/wiki/Frogger Video of the
+        Gameplay: https://www.youtube.com/watch?v=l9eTOaNFwKQ&amp;t=15s Source Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org For More Classic Video Games:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aRpfixWba8ZF6tJnZy5Mfw For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For an Intro to Programming using p5.js:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA Help us caption &amp; translate this video! http://amara.org/v/7srA/</media:description>
+      <media:community>
+        <media:starRating count="293" average="4.97" min="1" max="5"/>
+        <media:statistics views="12261"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:06-ZvYmSeus</id>
+    <yt:videoId>06-ZvYmSeus</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>Coding Challenge #72.2: Frogger - Part 2</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=06-ZvYmSeus"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-15T16:39:54+00:00</published>
+    <updated>2017-08-31T10:15:01+00:00</updated>
+    <media:group>
+      <media:title>Coding Challenge #72.2: Frogger - Part 2</media:title>
+      <media:content url="https://www.youtube.com/v/06-ZvYmSeus?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i1.ytimg.com/vi/06-ZvYmSeus/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In Part 2 of the Frogger coding challenge, I add the first row of obstacles to avoid. Part 1: https://youtu.be/giXV6xErw0Y Part 3: https://youtu.be/hk326ZHlENQ Part 4: https://youtu.be/c6WdJltqEtM Source code for this challenge:
+        https://github.com/CodingTrain/Rainbow-Code/tree/master/CodingChallenges/CC_73_Frogger Here is the community made Frogger in p5.js (thanks to meiamsome): https://github.com/CodingTrain/Frogger Support this channel on Patreon:
+        https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To Support the Processing Foundation: https://processingfoundation.org/support Send me your questions and coding challenges!:
+        https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/ Links discussed in this video: Frogger on Wikipedia: https://en.wikipedia.org/wiki/Frogger Video of the
+        Gameplay: https://www.youtube.com/watch?v=l9eTOaNFwKQ&amp;t=15s Source Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org For More Classic Video Games:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aRpfixWba8ZF6tJnZy5Mfw For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For an Intro to Programming using p5.js:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA Help us caption &amp; translate this video! http://amara.org/v/7rm0/</media:description>
+      <media:community>
+        <media:starRating count="237" average="4.93" min="1" max="5"/>
+        <media:statistics views="10877"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:giXV6xErw0Y</id>
+    <yt:videoId>giXV6xErw0Y</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>Coding Challenge #72.1: Frogger - Part 1</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=giXV6xErw0Y"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-14T13:53:16+00:00</published>
+    <updated>2017-09-02T08:07:05+00:00</updated>
+    <media:group>
+      <media:title>Coding Challenge #72.1: Frogger - Part 1</media:title>
+      <media:content url="https://www.youtube.com/v/giXV6xErw0Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i4.ytimg.com/vi/giXV6xErw0Y/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In this multi-part challenge, I attempt to re-create the classic Atari video game Frogger in Processing (Java). In this first part, I set up a foundation for the game mechanics and deal with simple collision detection. Part 2:
+        https://youtu.be/06-ZvYmSeus Part 3: https://youtu.be/hk326ZHlENQ Part 4: https://youtu.be/c6WdJltqEtM Source code for this challenge: https://github.com/CodingTrain/Rainbow-Code/tree/master/CodingChallenges/CC_73_Frogger Here is the community made
+        Frogger in p5.js (thanks to meiamsome): https://github.com/CodingTrain/Frogger Support this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To Support the Processing Foundation:
+        https://processingfoundation.org/support Send me your questions and coding challenges!: https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/ Links discussed
+        in this video: Frogger on Wikipedia: https://en.wikipedia.org/wiki/Frogger Video of the Gameplay: https://www.youtube.com/watch?v=l9eTOaNFwKQ&amp;t=15s Source Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js:
+        https://p5js.org/ Processing: https://processing.org For More Classic Video Games: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aRpfixWba8ZF6tJnZy5Mfw For More Coding Challenges:
+        https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH For an Intro to Programming using p5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA Help us caption &amp; translate this video!
+        http://amara.org/v/7p2o/</media:description>
+      <media:community>
+        <media:starRating count="522" average="4.94" min="1" max="5"/>
+        <media:statistics views="23933"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:m9EsKBPCggk</id>
+    <yt:videoId>m9EsKBPCggk</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>Live Stream #97: Perceptron Follow-up and Frogger Refactoring</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=m9EsKBPCggk"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-13T15:28:13+00:00</published>
+    <updated>2017-08-27T15:49:33+00:00</updated>
+    <media:group>
+      <media:title>Live Stream #97: Perceptron Follow-up and Frogger Refactoring</media:title>
+      <media:content url="https://www.youtube.com/v/m9EsKBPCggk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i2.ytimg.com/vi/m9EsKBPCggk/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In this episode, I follow-up on two previous topics. First, I add features to the Perceptron Coding Challenge (https://youtu.be/ntKn5TPHHAk). I also work on refactoring the code of the Frogger Coding Challenge
+        (https://youtu.be/giXV6xErw0Y). Edited videos: Perceptron Follow-up: https://youtu.be/DGxIcDjPzac Frogger Refactoring: https://youtu.be/c6WdJltqEtM 9:51 - Intro to today's topics 17:48 - Coding Challenge: Perceptron Follow-up 1:12:30 - Coding
+        Challenge: Frogger Refactoring 2:00:02 - Conclusion/Q&amp;A Support this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To Support the Processing Foundation:
+        https://processingfoundation.org/support Send me your questions and coding challenges!: https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/ Links discussed
+        in this video: My Video explaining &quot;Overloading&quot;: https://youtu.be/V7k5bFQbhG0 My Video on the map() function: https://youtu.be/nicMAoW6u1g this.dot song: https://soundcloud.com/kristianpedersen/this-dot-feat-daniel-shiffman kittens song:
+        https://soundcloud.com/lostghbear/lostghbear-podopleloff-kittens-feat-dan-shiffman Perceptron Coding Challenge: https://youtu.be/ntKn5TPHHAk Frogger Coding Challenge: https://youtu.be/giXV6xErw0Y NYU Tisch School of the Arts: http://tisch.nyu.edu/
+        ITP - Interactive Telecommunications Program - NYU: https://tisch.nyu.edu/itp kwichmann's Learning XOR with a neural net: https://kwichmann.github.io/ml_sandbox/XOR_nn/ Coding Train subreddit: https://www.reddit.com/r/codingtrain Source Code for the
+        all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org For an Introduction to Programming:
+        https://www.youtube.com/watch?v=8j0UDiN7my4&amp;index=1&amp;list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA For my Nature of Code videos: https://www.youtube.com/watch?v=6vX8wT1G798&amp;list=PLRqwX-V7Uu6YVljJvFRCyRM6mmF5wMPeE&amp;index=1 For More Live
+        Streams: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bxnFR6no70vlxxuxDEzflz For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH Help us caption &amp; translate this video!
+        http://amara.org/v/7oHh/</media:description>
+      <media:community>
+        <media:starRating count="320" average="4.91" min="1" max="5"/>
+        <media:statistics views="10842"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:7BdfPG3peP4</id>
+    <yt:videoId>7BdfPG3peP4</yt:videoId>
+    <yt:channelId>UCvjgXvBlbQiydffZU7m1_aw</yt:channelId>
+    <title>Live Stream #96: Frogger</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=7BdfPG3peP4"/>
+    <author>
+      <name>The Coding Train</name>
+      <uri>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</uri>
+    </author>
+    <published>2017-06-09T22:35:21+00:00</published>
+    <updated>2017-08-27T13:14:17+00:00</updated>
+    <media:group>
+      <media:title>Live Stream #96: Frogger</media:title>
+      <media:content url="https://www.youtube.com/v/7BdfPG3peP4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i4.ytimg.com/vi/7BdfPG3peP4/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In this live episode, I take a break from the machine learning videos and code a simple version of the classic Atari video game Frogger in Processing (Java). Edited videos: Frogger Part 1: https://youtu.be/giXV6xErw0Y Frogger Part
+        2: https://youtu.be/06-ZvYmSeus Frogger Part 3: https://youtu.be/hk326ZHlENQ 25:47 - Coding Challenge: Frogger - Part 1 1:21:10 - Coding Challenge: Frogger - Part 2 1:43:39 - Coding Challenge: Frogger - Part 3 2:12:50 - Conclusion/Q&amp;A Support
+        this channel on Patreon: https://patreon.com/codingtrain To buy Coding Train merchandise: https://codingtrain.storenvy.com To Support the Processing Foundation: https://processingfoundation.org/support Send me your questions and coding challenges!:
+        https://github.com/CodingTrain/Rainbow-Topics Contact: Twitter: https://twitter.com/shiffman The Coding Train website: http://thecodingtrain.com/ Links discussed in this video: Frogger on Wikipedia: https://en.wikipedia.org/wiki/Frogger Video of the
+        Gameplay: https://www.youtube.com/watch?v=l9eTOaNFwKQ&amp;t=15s Source Code for the all Video Lessons: https://github.com/CodingTrain/Rainbow-Code p5.js: https://p5js.org/ Processing: https://processing.org For an Introduction to Programming:
+        https://www.youtube.com/watch?v=8j0UDiN7my4&amp;index=1&amp;list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA For my Nature of Code videos: https://www.youtube.com/watch?v=6vX8wT1G798&amp;list=PLRqwX-V7Uu6YVljJvFRCyRM6mmF5wMPeE&amp;index=1 For More Live
+        Streams: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bxnFR6no70vlxxuxDEzflz For More Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH</media:description>
+      <media:community>
+        <media:starRating count="593" average="4.96" min="1" max="5"/>
+        <media:statistics views="17951"/>
+      </media:community>
+    </media:group>
+  </entry>
+</feed>

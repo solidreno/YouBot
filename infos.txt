@@ -1,0 +1,12 @@
+youtube-dl options
+https://github.com/rg3/youtube-dl/blob/master/README.md#readme
+-a, --batch-file FILE            File containing URLs to download ('-' for
+                                 stdin)
+-o, --output TEMPLATE            Output filename template, see the "OUTPUT
+                                TEMPLATE" for all the info
+--newline                        Output progress bar as new lines
+--no-progress                    Do not print progress bar
+
+
+Spawn processes :
+https://nodejs.org/api/child_process.html#child_process_child_process_spawnsync_command_args_options

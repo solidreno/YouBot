@@ -1,0 +1,56 @@
+<opml version="1.1">
+    <body>
+        <outline text="Abonnements YouTube" title="Abonnements YouTube">
+            <outline text="Fun Fun Function" title="Fun Fun Function" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCO1cgjhGzsSYb1rsB4bFe4Q"/>
+            <outline text="The Coding Train" title="The Coding Train" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvjgXvBlbQiydffZU7m1_aw"/>
+            <!-- <outline text="Zach King" title="Zach King" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCq8DICunczvLuJJq414110A"/> -->
+            <outline text="Zacharias Reinhardt" title="Zacharias Reinhardt" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWWybvw9jnpOdJq_6wTHryA"/>
+            <!-- <outline text="Serge le Mytho" title="Serge le Mytho" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYx7aAgyuFvpESh9YGKNsXg"/> -->
+            <!-- <outline text="Rap Contenders" title="Rap Contenders" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZHujq66LRWtFga6v_uhqrA"/> -->
+            <outline text="Dave Ackley" title="Dave Ackley" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClOeW4P8ekXaKxJaZU_LK6w"/>
+            <outline text="DevTips" title="DevTips" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyIe-61Y8C4_o-zZCtO4ETQ"/>
+            <!-- <outline text="Bloqués" title="Bloqués" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCd0V9SfenWqlPsTt5-AyN8A"/> -->
+            <outline text="AgenZasBrothers" title="AgenZasBrothers" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCOOmTjuGS9VwH3rziflB7Xg"/>
+            <outline text="Blender" title="Blender" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSMOQeBJ2RAnuFungnQOxLg"/>
+            <outline text="OTB - Outside The Box" title="OTB - Outside The Box" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC8NJCimLOr_Uc4GhirgO7lg"/>
+            <outline text="Bandyte" title="Bandyte" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCXtzglUKLgekxmJlc9F1KXQ"/>
+            <outline text="BlenderDiplom" title="BlenderDiplom" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDr2wre7DtbJg8IxJNJkhmw"/>
+            <outline text="Wayward Art Company" title="Wayward Art Company" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC524_NOif1p3YPC39UAbF1A"/>
+            <outline text="CynicatPro" title="CynicatPro" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqoc1p9ov0CwzvKObvrKxMA"/>
+            <!-- <outline text="Alimayo Arango" title="Alimayo Arango" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_47ItRT9U4nnElhSK8JcmQ"/> -->
+            <outline text="Kenan Proffitt" title="Kenan Proffitt" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-sNFghlhptC9Kx8PGP3Ckg"/>
+            <outline text="Sci Fi Animator" title="Sci Fi Animator" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuGWRbFrq3bZkOEpQ02Xpww"/>
+            <outline text="BornCG" title="BornCG" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdioEctcBLd2nw2aQkl8msw"/>
+            <outline text="JHON RACHID" title="JHON RACHID" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCnzWXmq8l0TIguCPDsrY78Q"/>
+            <outline text="Gleb Alexandrov" title="Gleb Alexandrov" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVA3cYOgsTN4hs3v7pjne7w"/>
+            <outline text="Project Gooseberry" title="Project Gooseberry" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGRk7KLUhHy0HPqf6NwC8kg"/>
+            <outline text="CG Masters" title="CG Masters" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCxay0KiyLlawfgoZ2mVnNQ"/>
+            <!-- <outline text="PigArt" title="PigArt" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBigB2UktH5XE1hY1vqghOA"/> -->
+            <outline text="Medine" title="Medine" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCfVtcXkdfMIbPN29GCQwmHA"/>
+            <outline text="BlenderTek" title="BlenderTek" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCP_sduB4CJqkg4JBvxpbPSw"/>
+            <outline text="the d-dub show" title="the d-dub show" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCACrCnzOuKksKUYXwtA8bOA"/>
+            <outline text="Darrin Lile" title="Darrin Lile" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyu4kn_ROhA34jug2g_AwJA"/>
+            <!-- <outline text="PartnersInCrimeGFX" title="PartnersInCrimeGFX" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyWy0s2Zh9iEIcxUwGGgjaQ"/> -->
+            <outline text="CG Geek" title="CG Geek" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCG8AxMVa6eutIGxrdnDxWpQ"/>
+            <outline text="Oliver Villar" title="Oliver Villar" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCgG4R2IQv9cB5aYoLRLKQig"/>
+            <outline text="Dieudonné Officiel" title="Dieudonné Officiel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHRPg4LxfQGag83gQWfXYAQ"/>
+            <outline text="Cyprien" title="Cyprien" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyWqModMQlbIo8274Wh_ZsQ"/>
+            <!-- <outline text="Sardi Pax" title="Sardi Pax" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWUNJX8nRfmnA1QaP4B0I_Q"/> -->
+            <!-- <outline text="3D Blender Tutorials by ianscott888" title="3D Blender Tutorials by ianscott888" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvQa9ruJ1_Z1uewYQkYrzlA"/> -->
+            <outline text="Rob Tuytel" title="Rob Tuytel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCoPsBhk7qR_i6eVjcsyStYA"/>
+            <outline text="AsapSCIENCE" title="AsapSCIENCE" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCC552Sd-3nyi_tk2BudLUzA"/>
+            <outline text="Computerphile" title="Computerphile" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA"/>
+            <outline text="Numberphile" title="Numberphile" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A"/>
+            <!-- <outline text="DieudoTV" title="DieudoTV" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGby1e0eiMTbvwjZETb4yYQ"/> -->
+            <!-- <outline text="Rhymesayers Entertainment" title="Rhymesayers Entertainment" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHVbuwA78fcrsESJtKGz7dg"/> -->
+            <!-- <outline text="MysteryGuitarMan" title="MysteryGuitarMan" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyoM9uxRbTtYoORWJPYWYyg"/> -->
+            <outline text="Disiz La Peste" title="Disiz La Peste" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCylVomQnFRQl_gOlXFNPf8g"/>
+            <outline text="thenewboston" title="thenewboston" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJbPGzawDH1njbqV-D5HqKw"/>
+            <outline text="Chris Coyier" title="Chris Coyier" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCADyUOnhyEoQqrw_RrsGleA"/>
+            <!-- <outline text="mybringback" title="mybringback" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHALE0WtcSB1E0dt7IaGqWA"/> -->
+            <!-- <outline text="VoidRealms" title="VoidRealms" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYP0nk48grsMwO3iL8YaAKA"/> -->
+            <outline text="CG Cookie Blender" title="CG Cookie Blender" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9VayT7q3pQ7tdF-TG4Q0yQ"/>
+            <outline text="Blender Guru" title="Blender Guru" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCOKHwx1VCdgnxwbjyb9Iu1g"/>
+        </outline>
+    </body>
+</opml>
