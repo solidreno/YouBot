@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const spawnSync = require('child_process').spawnSync;
 const sanitize = require('sanitize-filename');
 const fetch = require('node-fetch');
@@ -9,11 +10,39 @@ const lastRunFile = __dirname + '/data/lastRun';
 const lastRun = getLastRunDate();
 const runDate = new Date();
 const runDateString = runDate.toISOString();
-let inputFile = __dirname + '/data/subscription_manager.xml';
-let outputDir = __dirname + '/videos/';
+let inputFile = path.join(__dirname, 'data', 'subscription_manager.xml');
+// let basePath = path.join(__dirname, 'videos');
+let basePath = path.join(__dirname, 'videos');
+let outputDir = '';
 // let channelList = [];
 
+initOutputDir(basePath)
+.then(function (output) {
+  outputDir = output;
+})
+.then(run)
+.catch(console.error)
 
+function initOutputDir (basePath) {
+  return new Promise( (resolve, reject) => {
+    let outputDirPath = path.join(basePath, runDate.toISOString().substr(0,10));
+    fs.access(outputDirPath, function (err){
+      if (err) {
+        console.log(`Création du répertoire ${outputDirPath}`);
+        return fs.mkdir(outputDirPath, function (err) {
+          if (err) {
+            reject(new Error(`Impossible de créer le répertoire ${outputDirPath}`));
+          } else {
+            resolve(outputDirPath);
+          }
+        });
+      } else {
+        // TODO : Gérer la création d'un nouveau répertoire si celui-ci existe
+        reject(new Error(`Le répertoire ${outputDirPath} existe déjà`));
+      }
+    });
+  });
+}
 
 function getLastRunDate () {
   let lastRunBuffer = fs.readFileSync(lastRunFile);
@@ -34,28 +63,30 @@ if(quietMode) {
   console.log('Execution à vide');
 }
 
-readSubscrFile(inputFile) // Lit le fichier des abonnements
-.then(parseSubscrFile)    // Parse l'XML lu
-.then(getChannels)        // Extrait la liste des chaines
-.then(function (channelList) {
-  return Promise.all(channelList.map(getVidsForChannel)); // Pour chaque chaine, récupère la liste des vidéo
-})
-.then(function (allVids) {
-  return Promise.all(allVids.map(readChannelFile));       // Pour chaque chaine, parse la liste des vidéos
-})
-.then(function (parsedVids) {
-  return parsedVids.map(getVids);                         // Pour chaque chaine, extrait la liste des vidéos
-})
-.then(function (vids) {
-  return vids.reduce(function (tab, channelVid) {         // Concatène les tableaux de vidéo des différentes chaines
-    return tab.concat(channelVid);
-  }, [])
-})
-.then(filterAndSort)      // Filtre et trie les vidéos
-.then(buildArgsList)
-.then(download)
-.then(writeRunDate)
-.catch((err) => console.dir(err));
+function run () {
+  readSubscrFile(inputFile) // Lit le fichier des abonnements
+  .then(parseSubscrFile)    // Parse l'XML lu
+  .then(getChannels)        // Extrait la liste des chaines
+  .then(function (channelList) {
+    return Promise.all(channelList.map(getVidsForChannel)); // Pour chaque chaine, récupère la liste des vidéo
+  })
+  .then(function (allVids) {
+    return Promise.all(allVids.map(readChannelFile));       // Pour chaque chaine, parse la liste des vidéos
+  })
+  .then(function (parsedVids) {
+    return parsedVids.map(getVids);                         // Pour chaque chaine, extrait la liste des vidéos
+  })
+  .then(function (vids) {
+    return vids.reduce(function (tab, channelVid) {         // Concatène les tableaux de vidéo des différentes chaines
+      return tab.concat(channelVid);
+    }, [])
+  })
+  .then(filterAndSort)      // Filtre et trie les vidéos
+  .then(buildArgsList)
+  .then(download)
+  .then(writeRunDate)
+  .catch((err) => console.dir(err));
+}
 
 // Lit le fichier des abonnements
 function readSubscrFile (file) {
@@ -164,7 +195,7 @@ function buildArgsList (videoArray) {
       let stringIndex = to3String(i);
       args.push([
         '-o',
-        outputDir + stringIndex + ' - ' + video.author + ' - ' + video.title +'.%(ext)s',
+        path.join(outputDir, stringIndex + ' - ' + video.author + ' - ' + video.title +'.%(ext)s'),
         video.url
       ])
     });
