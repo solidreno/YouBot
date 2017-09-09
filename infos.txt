@@ -8,5 +8,8 @@ https://github.com/rg3/youtube-dl/blob/master/README.md#readme
 --no-progress                    Do not print progress bar
 
 
+FORMAT SELECTION
+-f "bestvideo[width<2000]+bestaudio/best"
+
 Spawn processes :
 https://nodejs.org/api/child_process.html#child_process_child_process_spawnsync_command_args_options

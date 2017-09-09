@@ -7,7 +7,7 @@ const xml2js = require('xml2js');
 const parser = new xml2js.Parser();
 
 const inputFile = path.join(__dirname, 'data', 'subscription_manager.xml');
-const basePath = path.join(__dirname, 'videos');
+const basePath = path.join('/media/freebox/Swap/Youtube/');
 const logPath = path.join(__dirname, 'logs');
 let outputDir = '';
 const quietMode = (process.argv[2] == 'quiet');
@@ -26,12 +26,12 @@ if(quietMode) {
   log('Execution à vide');
 }
 
-/*initOutputDir(basePath)
+initOutputDir(basePath)
 .then(function (output) {
   outputDir = output;
 })
 .then(run)
-.catch(console.error)*/
+.catch(console.error)
 
 // Crée le répertoire de destination selon la date du jour
 function initOutputDir (basePath) {
@@ -55,7 +55,12 @@ function initOutputDir (basePath) {
 
       } else {
         // TODO : Gérer la création d'un nouveau répertoire si celui-ci existe
-        reject(new Error(`Le répertoire ${outputDirPath} existe déjà`));
+        if (quietMode) {
+          log (`Le répertoire ${outputDirPath} existe déjà. Mode quiet, on poursuit`)
+          return resolve(outputDirPath);
+        } else {
+          reject(new Error(`Le répertoire ${outputDirPath} existe déjà`));
+        }
       }
     });
   });
@@ -188,12 +193,8 @@ function filterAndSort (videoArray) {
     .sort(function (vidA, vidB) {
       return vidA.pubDate < vidB.pubDate ? -1 : 1;
     })
-  log(vidToDownload);
-  if(quietMode) {
-    return [];
-  } else {
-    return vidToDownload;
-  }
+  // log(vidToDownload);
+  return vidToDownload;
 }
 
 // Génère pour chaque objet video la liste des arguments à passer à youtube-dl
@@ -208,14 +209,31 @@ function buildArgsList (videoArray) {
         commandArgs.push('-s');
       }
       commandArgs.push(
-        '--newline', // Output progress bar as new lines
+        '-f',
+        'bestvideo[width<2000]+bestaudio/best', // Choix du meilleur format de moins de 2000 px de large
         '-o',
         path.join(outputDir, stringIndex + ' - ' + video.author + ' - ' + video.title +'.%(ext)s'),
         video.url
       );
       video.commandArgs = commandArgs;
+      log('');
+      log(`------------ Video ${stringIndex} ------------`)
+      log(`\tAuthor : ${video.author}`);
+      log(`\tTitre  : ${video.title}`);
+      log(`\tDate   : ${prettyPrintDate(video.pubDate)}`)
+      if (quietMode) {
+        log(`\tComm  : youtube-dl -f "bestvideo[width<2000]+bestaudio/best" -o "${commandArgs[4]}" ${commandArgs[5]}`);
+      } else {
+        log(`\tComm  : youtube-dl -f "bestvideo[width<2000]+bestaudio/best" -o "${commandArgs[3]}" ${commandArgs[4]}`);
+      }
     });
   return videoArray;
+}
+
+function prettyPrintDate (date) {
+  let dateString = date.toISOString();
+  dateString = dateString.substr(0,10)+' '+dateString.substr(11, 8);
+  return dateString;
 }
 
 // Télécharge chaque vidéo selon les paramètres de args
