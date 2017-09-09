@@ -198,26 +198,31 @@ function filterAndSort (videoArray) {
 
 // Génère pour chaque objet video la liste des arguments à passer à youtube-dl
 function buildArgsList (videoArray) {
-  let args = [];
   let i = 0;
   videoArray
     .forEach(function (video) {
       i++;
       let stringIndex = to3String(i);
-      args.push([
+      let commandArgs = [];
+      if (quietMode) {
+        commandArgs.push('-s');
+      }
+      commandArgs.push(
+        '--newline', // Output progress bar as new lines
         '-o',
         path.join(outputDir, stringIndex + ' - ' + video.author + ' - ' + video.title +'.%(ext)s'),
         video.url
-      ])
+      );
+      video.commandArgs = commandArgs;
     });
-    return args;
+  return videoArray;
 }
 
 // Télécharge chaque vidéo selon les paramètres de args
-function download (args) {
-  for (vid of args) {
-    log(`Download of ${vid[2]}`);
-    spawnSync('youtube-dl', vid, {stdio: 'inherit'});
+function download (videos) {
+  for (vid of videos) {
+    log(`Download of ${vid.author} - ${vid.title}`);
+    spawnSync('youtube-dl', vid.commandArgs, {stdio: 'inherit'});
   }
 }
 
