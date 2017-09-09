@@ -6,15 +6,18 @@ const fetch = require('node-fetch');
 const xml2js = require('xml2js');
 const parser = new xml2js.Parser();
 
-const lastRunFile = __dirname + '/data/lastRun';
+const lastRunFile = path.join(__dirname, 'data', 'lastRun');
 const lastRun = getLastRunDate();
 const runDate = new Date();
 const runDateString = runDate.toISOString();
 let inputFile = path.join(__dirname, 'data', 'subscription_manager.xml');
-// let basePath = path.join(__dirname, 'videos');
 let basePath = path.join(__dirname, 'videos');
 let outputDir = '';
-// let channelList = [];
+
+let quietMode = (process.argv[2] == 'quiet');
+if(quietMode) {
+  console.log('Execution à vide');
+}
 
 initOutputDir(basePath)
 .then(function (output) {
@@ -23,19 +26,26 @@ initOutputDir(basePath)
 .then(run)
 .catch(console.error)
 
+// Crée le répertoire de destination selon la date du jour
 function initOutputDir (basePath) {
   return new Promise( (resolve, reject) => {
     let outputDirPath = path.join(basePath, runDate.toISOString().substr(0,10));
     fs.access(outputDirPath, function (err){
       if (err) {
         console.log(`Création du répertoire ${outputDirPath}`);
-        return fs.mkdir(outputDirPath, function (err) {
-          if (err) {
-            reject(new Error(`Impossible de créer le répertoire ${outputDirPath}`));
-          } else {
-            resolve(outputDirPath);
-          }
-        });
+
+        if(!quietMode){
+          return fs.mkdir(outputDirPath, function (err) {
+            if (err) {
+              reject(new Error(`Impossible de créer le répertoire ${outputDirPath}`));
+            } else {
+              resolve(outputDirPath);
+            }
+          });
+        } else {
+          return resolve(outputDirPath);
+        }
+
       } else {
         // TODO : Gérer la création d'un nouveau répertoire si celui-ci existe
         reject(new Error(`Le répertoire ${outputDirPath} existe déjà`));
@@ -56,11 +66,6 @@ function writeRunDate () {
   if(!quietMode) {
     fs.writeFileSync(lastRunFile, runDateString)
   }
-}
-
-let quietMode = (process.argv[2] == 'quiet');
-if(quietMode) {
-  console.log('Execution à vide');
 }
 
 function run () {
