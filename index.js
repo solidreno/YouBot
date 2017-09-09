@@ -6,25 +6,32 @@ const fetch = require('node-fetch');
 const xml2js = require('xml2js');
 const parser = new xml2js.Parser();
 
-const lastRunFile = path.join(__dirname, 'data', 'lastRun');
-const lastRun = getLastRunDate();
+const inputFile = path.join(__dirname, 'data', 'subscription_manager.xml');
+const basePath = path.join(__dirname, 'videos');
+const logPath = path.join(__dirname, 'logs');
+let outputDir = '';
+const quietMode = (process.argv[2] == 'quiet');
+
 const runDate = new Date();
 const runDateString = runDate.toISOString();
-let inputFile = path.join(__dirname, 'data', 'subscription_manager.xml');
-let basePath = path.join(__dirname, 'videos');
-let outputDir = '';
 
-let quietMode = (process.argv[2] == 'quiet');
+const logger = require('./logger.js');
+let logFile = path.join(logPath, runDate.toISOString().substr(0,10) + '.log');
+const log = logger(logFile, quietMode);
+
+const lastRunFile = path.join(__dirname, 'data', 'lastRun');
+const lastRun = getLastRunDate();
+
 if(quietMode) {
-  console.log('Execution à vide');
+  log('Execution à vide');
 }
 
-initOutputDir(basePath)
+/*initOutputDir(basePath)
 .then(function (output) {
   outputDir = output;
 })
 .then(run)
-.catch(console.error)
+.catch(console.error)*/
 
 // Crée le répertoire de destination selon la date du jour
 function initOutputDir (basePath) {
@@ -32,7 +39,7 @@ function initOutputDir (basePath) {
     let outputDirPath = path.join(basePath, runDate.toISOString().substr(0,10));
     fs.access(outputDirPath, function (err){
       if (err) {
-        console.log(`Création du répertoire ${outputDirPath}`);
+        log(`Création du répertoire ${outputDirPath}`);
 
         if(!quietMode){
           return fs.mkdir(outputDirPath, function (err) {
@@ -58,7 +65,7 @@ function getLastRunDate () {
   let lastRunBuffer = fs.readFileSync(lastRunFile);
   let lastRunString = lastRunBuffer.toString().split("\n")[0];
   let lastRun = new Date(lastRunString);
-  console.log(`Date de dernière execution : ${lastRun.toISOString().substr(0,10)}`);
+  log(`Date de dernière execution : ${lastRun.toISOString().substr(0,10)}`);
   return lastRun;
 }
 
@@ -147,7 +154,6 @@ function readChannelFile (data) {
   return new Promise((resolve, reject) => {
     parser.parseString(data, function (err, parsedData) {
       if (err) {
-        console.log(data);
         return reject(err);
       }
       return resolve(parsedData)
@@ -182,8 +188,8 @@ function filterAndSort (videoArray) {
     .sort(function (vidA, vidB) {
       return vidA.pubDate < vidB.pubDate ? -1 : 1;
     })
+  log(vidToDownload);
   if(quietMode) {
-    console.log(vidToDownload);
     return [];
   } else {
     return vidToDownload;
@@ -210,7 +216,7 @@ function buildArgsList (videoArray) {
 // Télécharge chaque vidéo selon les paramètres de args
 function download (args) {
   for (vid of args) {
-    console.log(`Download of ${vid[2]}`);
+    log(`Download of ${vid[2]}`);
     spawnSync('youtube-dl', vid, {stdio: 'inherit'});
   }
 }
